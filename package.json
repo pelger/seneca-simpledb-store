@@ -1,0 +1,37 @@
+{
+  "name": "seneca-simpledb-store",
+  "version": "0.1.0",
+  "description": "Seneca data store plugin for SimpleDB",
+  "main": "lib/simpledb-store.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pelger/seneca-simpledb-store"
+  },
+  "keywords": [
+    "seneca",
+    "plugin",
+    "store",
+    "simpledb",
+    "aws",
+    "json"
+  ],
+  "author": "Peter Elger (http://peterelger.com)",
+  "contributors": ["Richard Rodger (http://richardrodger.com)"],
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "simpledb": "~1.2.13"
+  },
+  "devDependencies": {
+    "seneca": "~0.5.9",
+    "async": "0.2.5"
+  },
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "lib"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "seneca-simpledb-store",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Seneca data store plugin for SimpleDB",
   "main": "lib/simpledb-store.js",
   "scripts": {

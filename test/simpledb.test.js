@@ -15,10 +15,11 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
+
 "use strict";
 
 var assert = require('assert');
-var seneca = require('../../seneca');
+var seneca = require('seneca');
 var async = require('async');
 var shared = seneca.test.store.shared;
 var keys = require('./keys.mine');
